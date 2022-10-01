@@ -1,18 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int wagonСapacity=102;
-        int seatPlace=60;
-        if (wagonСapacity>=102) {
-        System.out.println("Мест нет, вагон уже полностью забит!");
+        int fullUser=17;
+        if (fullUser>=18) {
+        System.out.println("Поздравляем вы достигли совершенолетия!");
+        } else {
+        System.out.println("Возраст совершеннолетия ещё не наступил, и нужно немного подождать!");
         }
-        if (wagonСapacity<102) {System.out.println("Есть свободные места!");
-        }
-        if (wagonСapacity<seatPlace) {
-            System.out.println("Есть сидячие места!");
-        }
-        if (wagonСapacity>=seatPlace) {
-            System.out.println("Только стоячие места!");
-        }
-
     }
 }
