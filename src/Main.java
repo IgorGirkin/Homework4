@@ -1,17 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        int childAge=7;
-        int student=18;
-        int generalWorker=24;
-        if (childAge>=7) {
-        System.out.println("Сегодня 1 сентября, прощай интернет, пора идти в школу!");
+        int wagonСapacity=102;
+        int seatPlace=60;
+        if (wagonСapacity>=102) {
+        System.out.println("Мест нет, вагон уже полностью забит!");
         }
-        if (student>=18) {System.out.println("Возраст совершеннолетия, привет общага, " +
-                "можешь отправляться в университет!");
+        if (wagonСapacity<102) {System.out.println("Есть свободные места!");
         }
-        if (generalWorker>=24) {
-            System.out.println("А вот и пришла пора отправляться на поиски приключений, " +
-                    "там ты найдешь золотые монеты на поле чудес!... пора искать первую работу.");
+        if (wagonСapacity<seatPlace) {
+            System.out.println("Есть сидячие места!");
         }
+        if (wagonСapacity>=seatPlace) {
+            System.out.println("Только стоячие места!");
+        }
+
     }
 }
