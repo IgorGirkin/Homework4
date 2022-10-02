@@ -1,20 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        int ageСhild = 14;
-        boolean togetherWithAdults=ageСhild >= 5 && ageСhild <= 14;
-        if (togetherWithAdults) {
-            System.out.println("Ребенок может кататься только в сопровождении взрослого!");
+        int one = 11;
+        int two = 10;
+        int free = 17;
+        boolean more = one > two && one > free;
+        boolean more2 = two > one && two > free;
+        boolean more3 = free > two && free > one;
+        if (more) {
+            System.out.println("Первое чило болше!");
+        } else if (more2) {
+            System.out.println("Второе число болше!"); {
+            }
         } else {
-        if (ageСhild<5) {
-            System.out.println("Ребенок НЕ может кататься на аттракционе!"); }
-        }
-        if (ageСhild>14) {
-            System.out.println("Ребенок может кататься без сопровождения взрослого!");
-        }
-
+            if (more3) {
+                System.out.println("Третее число больше!");
+            }
         }
     }
-
-
+}
 
 
