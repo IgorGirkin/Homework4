@@ -1,24 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 25;
-        boolean goesToKinderGarten = age >= 2 && age <= 6;
-        boolean schoolboy = age >= 7 && age <= 18;
-        boolean student = age > 18 && age <=24;
-        if (goesToKinderGarten) {
-            System.out.println("Нужно ходить в детский сад!");
-        }
-        if (schoolboy) {
-            System.out.println("Нужно ходить в школу!");
-        }
-        if(student) {
-            System.out.println("Твое место в университете!");
+        int ageСhild = 14;
+        boolean togetherWithAdults=ageСhild >= 5 && ageСhild <= 14;
+        if (togetherWithAdults) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого!");
         } else {
-            if (age > 24) {
-                System.out.println("Пора ходить на работу!");
-            }
+        if (ageСhild<5) {
+            System.out.println("Ребенок НЕ может кататься на аттракционе!"); }
+        }
+        if (ageСhild>14) {
+            System.out.println("Ребенок может кататься без сопровождения взрослого!");
+        }
+
         }
     }
-}
+
 
 
 
