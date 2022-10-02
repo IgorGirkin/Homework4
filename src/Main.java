@@ -1,19 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int generalWorker = 24;
-        if (generalWorker >= 24) {
-            System.out.println("А вот и пришла пора отправляться на поиски приключений, " +
-                    "там ты найдешь золотые монеты на поле чудес!... пора искать первую " +
-                    "работу.");
+        int wagonСapacity=59;
+        if (wagonСapacity >= 102) {
+            System.out.println("Мест нет, вагон уже полностью забит!");
         } else {
-            if (generalWorker>= 18) {
-                System.out.println("Возраст совершеннолетия, привет общага, " +
-                        "можешь отправляться в университет!");
+            if (wagonСapacity>= 60) {
+                System.out.println("Только стоячие места!");
             } else {
-                if (generalWorker >= 7) {
-                    System.out.println("Ребенок ходит в школу!");
+                System.out.println("Есть сидячие места!");
                 }
             }
         }
     }
-}
+
+
+
