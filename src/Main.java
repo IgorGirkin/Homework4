@@ -1,10 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        int fullUser=17;
-        if (fullUser>=18) {
-        System.out.println("Поздравляем вы достигли совершенолетия!");
+        int generalWorker = 24;
+        if (generalWorker >= 24) {
+            System.out.println("А вот и пришла пора отправляться на поиски приключений, " +
+                    "там ты найдешь золотые монеты на поле чудес!... пора искать первую " +
+                    "работу.");
         } else {
-        System.out.println("Возраст совершеннолетия ещё не наступил, и нужно немного подождать!");
+            if (generalWorker>= 18) {
+                System.out.println("Возраст совершеннолетия, привет общага, " +
+                        "можешь отправляться в университет!");
+            } else {
+                if (generalWorker >= 7) {
+                    System.out.println("Ребенок ходит в школу!");
+                }
+            }
         }
     }
 }
