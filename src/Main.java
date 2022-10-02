@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int one = 11;
+        int one = 10;
         int two = 10;
-        int free = 17;
+        int free = 10;
         boolean more = one > two && one > free;
         boolean more2 = two > one && two > free;
         boolean more3 = free > two && free > one;
@@ -11,12 +11,13 @@ public class Main {
         } else if (more2) {
             System.out.println("Второе число болше!"); {
             }
-        } else {
-            if (more3) {
+        } else if (more3) {
                 System.out.println("Третее число больше!");
-            }
+            } else {
+              System.out.println("Все три числа равны.");
         }
     }
-}
+    }
+
 
 
